@@ -1,0 +1,101 @@
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-self: center;
+    
+}
+.central {
+    justify-content: center;
+    position: relative
+}
+
+.banner {
+    background-color: #C5C3C6;
+}
+.cor:hover{
+    color: #46494C;
+}
+.menu li {
+    display: inline;
+    padding: 15px;
+    
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.menu li a:hover{
+    color: grey;
+}
+
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.tamanhoLogo {
+    width: 35px;
+    height: 35px;
+    padding: 15px;
+}
+
+.margem {
+    margin-bottom: 50px;
+
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-color: #C5C3C6;
+}
+
+
+
+.cordofundo {
+    background-color:#DCDCDD;
+}
+
+.container1 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.margemcopy {
+    margin: 0px;
+    
+}
+
+/*Estilos da página contato.html*/
+
+.margem-mapa {
+    margin-left: 50px;
+    padding: 30px;
+}

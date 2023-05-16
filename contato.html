@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <!-- link para linkar a style.css as outras abas -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-<body>
-    <h1>Entre em contato</h1>
-    <ul>
+<body class="cordofundo">
+    <ul class="menu">
         <li>
             <a href="index.html">Home</a> <!-- ÂNCORA - LINK -->
         </li>
@@ -16,8 +18,14 @@
             <a href="contato.html">Contato</a> <!-- ÂNCORA - LINK -->
         </li>
     </ul>
-
+    <hr>
+    <h2 class="center" >Curtiu? Me contate! </h2>
+    <div class=" p-30 container1 banner">
+        
+        <div class="margem-mapa">
     <form>
+        
+        <h2 class="center">Envie uma mensagem</h2>
         <label for="nome">Nome:</label> <br>
         <input type="text" id="nome">
         <br>
@@ -32,11 +40,14 @@
         <br>
         <button>Enviar</button>
 
-        <h2>Endereço:</h2>
+        
+    </form>
+</div>
+    <div class="margem-mapa" >
+        <h2 class="center">Endereço </h2>
         <p>Av. Paulista, 1.000</p>
         <p>São Paulo - SP</p>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980324106995!2d-46.65451252499141!3d-23.564922378797466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1sen!2sbr!4v1683598920233!5m2!1sen!2sbr" 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980324106995!2d-46.65451252499141!3d-23.564922378797466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1sen!2sbr!4v1683598920233!5m2!1sen!2sbr"
         width="400" 
         height="250" 
         style="border:0;" 
@@ -45,6 +56,30 @@
         referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
         
-        </form>
+    </div>
+    </div> 
+    
+    <hr>
+<footer>
+    <div class="container">
+        <a href="mailto:daibittencourt2000@gmail.com?subject=Contato%20via%20Blog%20Pessoal&body=Escreva%20aqui%20o%20seu%20e-mail." target="_blank">
+        <img class="tamanhoLogo" src="./assets/img/email.png" alt="Logo do E-mail">
+        </a>
+        <a href="https://github.com/Daianebittencourt" target="_blank">
+        <img class="tamanhoLogo" src="./assets/img/github.png" alt="Logo do Github">
+        </a>
+        <a href="https://www.instagram.com/daaibittencourt" target="_blank">
+        <img class="tamanhoLogo" src="./assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/daianebittencourtdasilva" target="_blank">
+        <img class="tamanhoLogo" src="./assets/img/linkedin.png" alt="Logo do linkedin">
+        </a>
+        <a href="https://wa.me/5511964132226" target="_blank">
+        <img class="tamanhoLogo" src="./assets/img/whatsapp.png" alt="Logo do whatsapp">
+        </a>
+    </div>
+    </div>
+    <p class="center margemcopy">Daiane Bittencourt &copy;</p> 
+</footer>
     </body>
 </html>
