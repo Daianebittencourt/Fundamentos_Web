@@ -24,11 +24,10 @@
 .cor:hover{
     color: #46494C;
 }
+
 .menu li {
     display: inline;
     padding: 15px;
-    
-    
 }
 
 .menu li a {

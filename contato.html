@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <!-- link para linkar a style.css as outras abas -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body class="cordofundo">
@@ -27,18 +27,19 @@
         
         <h2 class="center">Envie uma mensagem</h2>
         <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div class="txtNome"></div>
         <br>
         <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
-    <br>
+        <input type="email" id="email" onkeyup="validaEmail()">
+    <div class="txtEmail" ></div>
     <br>
         <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+        <div class="txtAssunto"></div>
         <br>
         <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
 
         
     </form>
@@ -54,6 +55,9 @@
         allowfullscreen="" 
         loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade"
+        onmousemove="zoom()"
+        onmouseout="normal()"
+        class="mapa"
         ></iframe>
         
     </div>
@@ -81,5 +85,7 @@
     </div>
     <p class="center margemcopy">Daiane Bittencourt &copy;</p> 
 </footer>
+
+<script src="./assets/js/script.js"></script>
     </body>
 </html>
